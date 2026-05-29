@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Nandini Goyal Portfolio
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/3a3a1f13-8569-4cdb-bd5f-c8e405b0f38f
+A static portfolio website for Nandini Goyal, B.Tech student at IIT Bombay.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js 18+
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000)
+
+## Build
+
+```bash
+npm run build
+```
+
+The production build is written to the `dist/` directory.
+
+## Deploy to GitHub Pages
+
+This site is configured for GitHub Pages at `https://kritarth-dandapat.github.io/nandini-website/`.
+
+1. Push changes to the `main` branch.
+2. In the GitHub repo, go to **Settings → Pages** and set **Source** to **GitHub Actions**.
+3. The workflow in `.github/workflows/deploy.yml` builds and deploys automatically on every push to `main`.
+
+You can also trigger a manual deploy from the **Actions** tab using **Run workflow**.

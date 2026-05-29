@@ -92,16 +92,6 @@ export const internships: Internship[] = [
       'Evaluated and benchmarked 10+ Large Language Models (LLMs) across critical metrics of scalability, reasoning latency, and output accuracy to find the supreme learner model for Memli.app.',
       'Conducted extensive automated QA and rigorous product benchmarking, detecting 15+ high-priority software bugs and guiding UI/UX enhancements used in active platform releases.'
     ]
-  },
-  {
-    role: 'Marketing Intern',
-    company: 'Thinkingstone AI',
-    period: 'Jun 2025 - Jul 2025',
-    description: 'Innovative AI startup building advanced voice recognition applications tailored for the global hospitality sector to minimize operational friction.',
-    bulletPoints: [
-      'Engineered multi-channel content rollout strategies for LinkedIn and Instagram, driving measurable increases in inbound organic audience engagement and overall brand reach.',
-      'Analyzed competitive landscapes and marketing architectures of 5+ industry competitors to craft highly reliable data-driven user personas and target market segmentations.'
-    ]
   }
 ];
 

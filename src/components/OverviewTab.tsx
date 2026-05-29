@@ -82,7 +82,7 @@ export default function OverviewTab({ onNavigateToTab }: OverviewTabProps) {
         {[
           { label: 'Cumulative GPA', value: '8.66 CPI', desc: 'IIT Bombay Scale' },
           { label: 'iGEM Dry Lab', value: '20+ Members', desc: 'Subsystem Head, Paris' },
-          { label: 'Tech Internships', value: '3 Projects', desc: 'Solar, LLMs, AI Voice' },
+          { label: 'Tech Internships', value: '2 Projects', desc: 'Solar, LLMs' },
           { label: 'Published Book', value: 'Kindle Store', desc: 'Street Animal Welfare' },
         ].map((item, idx) => (
           <div 
@@ -185,7 +185,7 @@ export default function OverviewTab({ onNavigateToTab }: OverviewTabProps) {
             Career Directory Index
           </h3>
           <p className="text-xs text-neutral-500 max-w-xl italic leading-relaxed">
-            Quickly jump to specialized domains of her academic roadmap. Use the side companion to consult authenticated resumes database.
+            Quickly jump to specialized domains of her academic roadmap.
           </p>
         </div>
 

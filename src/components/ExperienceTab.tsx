@@ -50,7 +50,7 @@ export default function ExperienceTab() {
             Professional Internship Term
           </h2>
           <p className="text-xs text-neutral-500 mt-1 italic font-light">
-            Real-world impact across chemical optimization, cognitive EdTech product analysis, and AI voice solutions.
+            Real-world impact across chemical optimization and cognitive EdTech product analysis.
           </p>
         </div>
         <div className="flex items-center gap-2 text-[10px] font-mono uppercase tracking-widest text-neutral-700 bg-white border border-neutral-300 px-3 py-1.5 rounded w-max font-bold">

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { 
   personalInfo 
 } from './data';
+import profilePic from './profile.jpg';
 import { 
   GraduationCap, 
   Briefcase, 
@@ -89,11 +90,11 @@ export default function App() {
               
               {/* Profile Avatar Graphics - Clean Minimal Look */}
               <div className="relative mx-auto w-24 h-24 rounded-full bg-neutral-900 p-0.5 shadow-none flex items-center justify-center border border-neutral-200">
-                <div className="w-full h-full bg-neutral-50 rounded-full flex flex-col items-center justify-center select-none border border-neutral-150">
-                  {/* Display initials with minimalist styling */}
-                  <span className="text-2xl font-display font-light text-neutral-900 tracking-widest uppercase">NG</span>
-                  <span className="text-[7px] font-mono tracking-widest text-neutral-500 mt-1 uppercase">IIT Bombay</span>
-                </div>
+                <img 
+                  src={profilePic} 
+                  alt="Nandini Goyal" 
+                  className="w-full h-full rounded-full object-cover"
+                />
                 {/* Micro Verified badge */}
                 <span className="absolute bottom-1 right-1 p-1 bg-neutral-950 text-white rounded-full border border-white">
                   <ShieldCheck className="h-3 w-3 font-bold" />

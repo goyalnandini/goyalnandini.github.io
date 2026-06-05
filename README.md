@@ -26,7 +26,7 @@ The production build is written to the `dist/` directory.
 
 ## Deploy to GitHub Pages
 
-This site is configured for GitHub Pages at `https://kritarth-dandapat.github.io/nandini-website/`.
+This site is configured for GitHub Pages at `https://goyalnandini.github.io/`.
 
 1. Push changes to the `main` branch.
 2. In the GitHub repo, go to **Settings → Pages** and set **Source** to **GitHub Actions**.

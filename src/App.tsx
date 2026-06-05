@@ -15,7 +15,6 @@ import {
   Mail, 
   MapPin, 
   Calendar,
-  Sparkles,
   Layers,
   Printer
 } from 'lucide-react';
@@ -75,12 +74,6 @@ export default function App() {
       id="portfolio-root-container"
       className="min-h-screen bg-[#fafafa] text-neutral-900 font-sans selection:bg-neutral-100 selection:text-neutral-900"
     >
-      {/* Top micro banner - Clean Minimalist style */}
-      <div className="bg-neutral-950 px-4 py-2.5 text-center text-[10px] sm:text-xs text-neutral-300 font-mono flex items-center justify-center gap-3 border-b border-neutral-900 uppercase tracking-widest leading-none">
-        <Sparkles className="h-3.5 w-3.5 text-neutral-300" />
-        <span>IIT Bombay Metallurgical Engineering Senior Student Portfolio • Verified Gpa: <strong className="text-white font-semibold">8.66 CPI</strong></span>
-        <span className="hidden sm:inline-block px-1.5 py-0.5 bg-neutral-800 rounded border border-neutral-700 text-[9px] text-neutral-200">Roll: 23B2486</span>
-      </div>
 
       {/* Main Responsive Grid container */}
       <div className="max-w-[1440px] mx-auto p-4 md:p-8 lg:p-10">
